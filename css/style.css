@@ -1,0 +1,198 @@
+:root
+{
+--dark-color: #19283f;
+--green-color: #33d1cc;
+--red-color: #ff3150;
+--yellow-color: #ffc400;
+--section-color: #eff7fa;
+}
+.bg-color-seactions
+{
+background-color: #eff7fa;
+}
+
+ p.caption-seactions::after
+{
+    content:"";
+    width: 100px;
+    height: 0.2px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+/* start of navbar  */
+.navbar
+{
+    background-color: var(--dark-color);
+}
+.navbar-toggler
+{
+    border: 1px solid whitesmoke;
+}
+.navbar-toggler:focus
+{
+    box-shadow: none;
+    border: 1px solid var(--green-color);
+}
+.navbar-collapse ul li a 
+{
+    color:white !important;
+    transition: 0.2s color;
+}
+.navbar-collapse ul li a[class~="active"]
+{
+    color:var(--green-color)!important;
+}
+.navbar-collapse ul li a:hover
+{
+    color:var(--green-color) !important;
+}
+.navbar-collapse ul li a:focus
+{
+    color:var(--green-color) !important;
+}
+
+/* end of navbar */
+/* start header */
+header
+{
+    background-color:var(--dark-color);
+}
+/* end  of header*/
+/* start feature*/
+.works
+{
+    color: var(--green-color);
+}
+
+.icones-works i:first-child
+{
+    color: #eff7fa;
+    font-size: 120px !important;
+    transform: translateY(50px);
+    z-index: -2;
+}
+.icones-works i:last-child
+{
+    font-size: 48px !important;
+}
+
+/* end of works  */
+
+
+/* start of portfolio */
+.service .container ul li 
+{
+    list-style-type: none;
+    margin-left: 20px;
+}
+.service .container ul li[class~=active]
+{
+    background-color: var(--red-color);
+}
+.service .container ul li  a
+{
+    text-decoration: none;
+    color:black ;
+}
+.service .container ul li  a:hover
+{
+    color: var(--red-color);
+}
+.service .container .caption-image-service
+{
+    background-color: rgba(92, 211, 206,0.8);
+    color: white;
+    transition: 0.2s right ,0.2s opacity ;
+}
+.service .container .image-service:hover .caption-image-service
+{
+right:0 !important;
+}
+.more-portfolio
+{
+    background-color: var(--red-color);
+}
+.more-portfolio:hover
+{
+    background-color: var(--red-color);
+}
+/* end of portfolio  */
+
+/* about team */
+.descriptoin-team
+{
+    max-width: 500px;
+}
+/* end of about  */
+
+
+/* team */
+.team .img-team h3
+{
+background-color:var(--green-color);
+color: white;
+}
+
+/* end of team */
+
+/* start project */
+.make-projects
+{
+    background-color: var(--dark-color);
+}
+/* end of project */
+/* search */
+
+.search-subscribe
+{
+    padding:5px 20px;
+    border: none;
+    border-bottom: 2px solid white;
+}
+.search-subscribe:focus-visible
+{
+    outline:none
+}
+.search-subscribe::placeholder
+{
+    color:white
+}
+/* end of search */
+
+footer
+{
+    background-color: var(--dark-color);
+}
+.Graphberry
+{
+    color: var(--green-color);
+}
+footer ul
+{
+    list-style-type: none;
+}
+.icones-footer i
+{
+
+    cursor: pointer;
+}
+.icones-footer i:first-child
+{
+    background-color: #0056d6;
+}
+.icones-footer i:nth-child(2)
+{
+    background-color: #1da1f2 ;
+}
+.icones-footer i:nth-child(3)
+{
+    background-color: #0077b5 ;
+}
+.icones-footer i:last-child
+{
+    background-color: #ff0000 ;
+}
