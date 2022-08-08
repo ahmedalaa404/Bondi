@@ -23,6 +23,28 @@ background-color: #eff7fa;
     transform: translateX(50%);
 }
 
+
+@media only screen and (max-width: 576px)
+{
+    body
+    {
+        font-size: 12px !important;
+    }
+    .about-team .row>.col-lg-4
+    {
+        text-align: center !important;
+        padding-bottom: 20px;
+    }
+    .logo-design .row >div
+    {
+        padding: 20px 0px;
+        text-align: center;
+    }
+    footer
+    {
+        text-align: center;
+    }
+}
 /* start of navbar  */
 nav
 {
