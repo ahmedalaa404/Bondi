@@ -45,6 +45,8 @@ background-color: #eff7fa;
         text-align: center;
     }
 }
+
+
 /* start of navbar  */
 nav
 {
@@ -169,7 +171,6 @@ color: white;
 }
 /* end of project */
 /* search */
-
 .search-subscribe
 {
     padding:5px 20px;
